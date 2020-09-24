@@ -1,6 +1,6 @@
 {
     "name": "GSearch Tracking",
-    "version": "1.0",
+    "version": "1.0.0",
     "description": "Removes Google's URL tracking when you click on a search result.",
     "manifest_version": 2,
     "content_scripts": [
