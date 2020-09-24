@@ -1,0 +1,22 @@
+{
+    "name": "GSearch Tracking",
+    "version": "1.0",
+    "description": "Removes Google's URL tracking when you click on a search result.",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.google.com/search?*"
+            ],
+            "js": [
+                "content_script.js"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    },
+    "browser_action": {}
+}
